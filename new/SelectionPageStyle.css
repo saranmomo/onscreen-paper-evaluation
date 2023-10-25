@@ -1,0 +1,91 @@
+div#uncorrected {
+	display: block;
+	/* justify-content: space-around; */
+	margin-top: 50px;
+	/* border: 5px solid black; */
+	background-color: #ccc;
+	margin-left: 50px;
+	float: left;
+	padding: 0;
+	height: 320px;
+	margin-bottom: 10px;
+	width: 450px;
+	border-radius: 7px;
+	overflow: auto;
+}
+
+div#corrected {
+	display: block;
+	margin-top: 50px;
+	/* justify-content: space-around; */
+	/* border: 5px solid black; */
+	background-color: #ccc;
+	margin-left: 30px;
+	float: left;
+	padding: 0;
+	height: 320px;
+	width: 450px;
+	border-radius: 7px;
+	overflow: auto;
+}
+
+div#corrected-uncorrected-outer {
+	width: 100%;
+	height: 420px;
+}
+div#corrected-uncorrected-inner {
+	/* width: 100%; */
+	height: 420px;
+	margin: auto;
+	width: 1050px;
+}
+
+.transparent {
+	background-color: transparent;
+}
+
+div#uncorrected input[type=text],
+div#corrected input[type=text] {
+	color:#404040;
+	border:none;
+	font-size:large;
+	font-weight:bold;
+	margin:10px auto;
+	display: block;
+	height:30px;
+	text-align: center;
+}
+div#uncorrected a:link {
+	background-color:#666;
+	color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 155px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+div#uncorrected a:hover,
+div#uncorrected a:visited:hover {
+	background-color: black;
+}
+div#uncorrected a:visited
+ {
+	background-color: #8c8c8c;
+}
+div#corrected a {
+	background-color:#b3b3b3;
+	color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 155px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-radius: 5px;
+	pointer-events: none;
+    cursor: default;
+}
